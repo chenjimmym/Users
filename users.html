@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Users</title>
+    <!-- <link rel="stylesheet" type="text/css" href="MeyerwebCSSReset.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="users.js"></script>
+    <link rel="stylesheet" type="text/css" href="users.css">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div id="container">
+        <table>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email Address</th>
+                <th>Contact #</th>
+            </tr>
+        </table>
+        <h1>Add User</h1>
+        <form action="/action_page.php">
+            <p>First name: </p>
+            <input type="text" name="firstname" value="">
+            <br>
+            <p>Last name: </p>
+            <input type="text" name="lastname" value="">
+            <br>
+            <p>Email address: </p>
+            <input type="text" name="email" value="">
+            <br>
+            <p>Contact #: </p>
+            <input type="text" name="contactNumber" value="">
+            <br>
+            <input type="submit" value="Add User">
+        </form>
+    </div>
+</body>
+
+</html>
